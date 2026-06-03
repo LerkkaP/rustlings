@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-tests1
+macros1
 
 intro1
 intro2
@@ -60,3 +60,8 @@ traits5
 lifetimes1
 lifetimes2
 lifetimes3
+iterators1
+iterators2
+threads1
+threads2
+threads3

@@ -11,12 +11,12 @@ enum DivisionError {
 // TODO: Calculate `a` divided by `b` if `a` is evenly divisible by `b`.
 // Otherwise, return a suitable error.
 fn divide(a: i64, b: i64) -> Result<i64, DivisionError> {
-    todo!();
+    
 }
 
 // TODO: Add the correct return type and complete the function body.
 // Desired output: `Ok([1, 11, 1426, 3])`
-fn result_with_list() {
+fn result_with_list() ->  Result<Vec<u32>, E>{
     let numbers = [27, 297, 38502, 81];
     let division_results = numbers.into_iter().map(|n| divide(n, 27));
 }
